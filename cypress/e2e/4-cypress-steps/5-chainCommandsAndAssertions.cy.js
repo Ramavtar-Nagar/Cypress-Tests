@@ -15,5 +15,5 @@ describe('Adding more commands and assertions', () => {
         //  Verify that the value has been updated
         cy.get('.action-email').should('have.value', 'fake@email.com')
 
-    })
-})
+    });
+});
