@@ -7,3 +7,10 @@ module.exports = defineConfig({
     },
   },
 });
+
+module.exports = defineConfig({
+  env: {
+    login_email: "avatar@example.com",
+    login_password: "password363"
+  }
+});
